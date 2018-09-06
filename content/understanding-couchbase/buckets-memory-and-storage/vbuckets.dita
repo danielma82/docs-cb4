@@ -25,7 +25,7 @@
    </p>
    
    <p>
-    Within the memory and storage management system of Couchbase Server, both Couchbase and Ephermal buckets are implemented
+    Within the memory and storage management system of Couchbase Server, both Couchbase and Ephemeral buckets are implemented
     as <i>vBuckets</i>, 1024 of which are created for every bucket (except on MacOS, where the number is 64). 
     vBuckets are distributed evenly across the memory and storage facilities of the cluster; and the bucket's items are
     distributed evenly across its vBuckets. This evenness of distribution ensures that all instances
